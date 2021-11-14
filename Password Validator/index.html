@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function validate()
+            {
+                var passOne = document.getElementById("pass-one").value;
+                var passTwo = document.getElementById("pass-two").value;
+                /* Debugging Purposes
+                console.log(passOne);
+                console.log(passTwo);
+                */
+                if ((passOne.length < 8) && (passOne.length < 8)){
+                    document.getElementById("outcome").innerText = "Password must be 8 characters long.";
+                }
+                else if (passOne != passTwo){
+                    document.getElementById("outcome").innerText = "Passwords do not match.";
+                }
+                else {
+                    document.getElementById("outcome").innerText = "Password valid.";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="pass-one" placeholder="Password"><br>
+        <input type="type" id="pass-two" placeholder="Confirm Password"><br>
+        <button id="validate" onclick="validate()">Validate</button><br>
+        <p id="outcome"></p>
+    </body>
+</html>
