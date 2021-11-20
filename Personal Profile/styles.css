@@ -1,0 +1,90 @@
+#profile-container {
+    position: relative;
+    width: 90%;
+    height: 125%;
+    top: 2.5%;
+    left: 5%;
+    border-radius: 5px;
+    background-image: url("photo-1601662528567-526cd06f6582.jpg");
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+#image {
+    display: inline-block;
+    border: 2px black;
+    position: relative;
+    height: 50%;
+    width: auto;
+    top: 5%;
+    left: 3%;
+    border-radius: 5px;
+}
+
+#twitter {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color:maroon;
+    text-decoration: none;
+    position: absolute;
+    top: 700px;
+    left: 55px;
+    font-size: 36px;
+}
+
+#instagram {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color:maroon;
+    text-decoration: none;
+    position: absolute;
+    top: 750px;
+    left: 55px;
+    font-size: 36px;
+}
+
+#twitter:hover {
+    color:green;
+}
+
+#instagram:hover {
+    color:green;
+}
+
+#name {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    position: absolute;
+    left: 27%;
+    top: 45px;
+}
+
+#date {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    position: absolute;
+    left: 27%;
+    top: 80px;
+    
+}
+
+#bio {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    position: absolute;
+    left: 27%;
+    top: 120px;
+    width: 70%;
+    font-weight: 600;
+}
+
+#yt {
+    position: absolute;
+    left: 27%;
+    width: 70%;
+    height: 45%;
+    top: 420px;
+}
